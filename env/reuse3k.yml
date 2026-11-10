@@ -1,0 +1,22 @@
+# Conda environment for the whole pipeline. Create with:  bash install.sh
+# (or: conda env create -f env/reuse3k.yml)
+# The exact versions used for a run are recorded in results/reuse3k.lock.yml by scripts/06_collect_results.sh.
+name: reuse3k
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  - samtools>=1.21          # remote BAM index access (S3)
+  - minimap2>=2.26
+  - seqkit>=2.5
+  - kraken2>=2.1.3
+  - bracken>=2.9
+  - plink=1.90b6.21         # genotype extraction for the locus check
+  - gemma>=0.98.5           # kinship + linear mixed model GWAS
+  - pandas>=2.0
+  - numpy
+  - scipy
+  - matplotlib
+  - curl
+  - pigz

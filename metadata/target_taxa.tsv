@@ -1,0 +1,8 @@
+taxid	name	disease	validation_ref
+347	Xanthomonas oryzae	bacterial leaf blight / leaf streak	CP000967.2
+337	Burkholderia glumae	bacterial panicle blight	GCF_000022645.2
+318829	Pyricularia oryzae	rice blast	GCF_000002495.2
+1159556	Ustilaginoidea virens	false smut	GCF_000687475.1
+456999	Rhizoctonia solani	sheath blight	
+5127	Fusarium fujikuroi	bakanae	
+3048298	Tungrovirus oryzae	rice tungro (RTBV, DNA virus)	NC_001914.1

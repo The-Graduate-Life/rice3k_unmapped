@@ -1,0 +1,16 @@
+# Static checks only (the real pipeline needs ~45 GB and a cluster). No data is downloaded.
+name: lint
+on: [push, pull_request]
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: bash syntax
+        run: for f in *.sh jobs/*.sh scripts/*.sh scripts/utils/*.sh tests/*.sh; do bash -n "$f" || exit 1; done
+      - name: shellcheck (errors only)
+        run: sudo apt-get install -y shellcheck && shellcheck -S error *.sh jobs/*.sh scripts/*.sh scripts/utils/*.sh tests/*.sh
+      - name: python compiles
+        run: python3 -m py_compile scripts/*.py
+      - name: dry run of the job graph
+        run: SCRATCH=/tmp bash run_pipeline.sh --scheduler pbs --dry-run > /dev/null

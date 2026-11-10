@@ -1,0 +1,21 @@
+# run-time output (large data lives in $WORK, outside the repo)
+logs/
+smoke_work/
+*.bai
+*.fq
+*.fq.gz
+*.bam
+# packaging leftovers
+*.tar.gz
+# python / node
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+node_modules/
+package-lock.json
+# OS / editors
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/

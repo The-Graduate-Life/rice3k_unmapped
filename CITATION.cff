@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this pipeline or its results, please cite it as below, and cite the 3,000 Rice Genomes Project."
+title: "Discarded reads as a disease screen: pathogen DNA in the unmapped reads of the 3,000 Rice Genomes"
+authors:
+  - family-names: "Pierre"
+    given-names: "Fritzner"
+date-released: 2026-11-10
+license: MIT
+repository-code: "https://github.com/The-Graduate-Life/rice3k_unmapped"
+references:
+  - type: article
+    title: "Genomic variation in 3,010 diverse accessions of Asian cultivated rice"
+    authors:
+      - family-names: Wang
+        given-names: Wensheng
+    journal: Nature
+    volume: 557
+    start: 43
+    year: 2018
+    doi: 10.1038/s41586-018-0063-9

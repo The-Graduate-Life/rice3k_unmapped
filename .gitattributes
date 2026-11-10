@@ -1,0 +1,4 @@
+# Shell scripts must keep LF endings or bash fails on Linux clusters (important when editing on Windows)
+* text=auto eol=lf
+*.png  binary
+*.gz   binary
