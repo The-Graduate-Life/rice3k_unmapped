@@ -2,9 +2,9 @@
 
 **Re-mining the 3,000 Rice Genomes for the pathogen DNA nobody looked at.**
 
-[![lint](https://github.com/The-Graduate-Life/rice3k_unmapped/actions/workflows/lint.yml/badge.svg)](https://github.com/The-Graduate-Life/rice3k_unmapped/actions/workflows/lint.yml)
-![license](https://img.shields.io/badge/license-MIT-green)
-![data](https://img.shields.io/badge/data-public%20(AWS%20Open%20Data)-blue)
+[![lint](https://github.com/The-Graduate-Life/rice3k_unmapped/actions/workflows/lint.yml/badge.svg?branch=main)](https://github.com/The-Graduate-Life/rice3k_unmapped/actions/workflows/lint.yml)
+[![license: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![data: AWS Open Data](https://img.shields.io/badge/data-AWS%20Open%20Data-blue)](https://registry.opendata.aws/3kricegenome/)
 
 > **Want to reproduce it?** Go straight to **[FOLLOWME.md](FOLLOWME.md)**: three commands, step by step.
 

@@ -1,3 +1,4 @@
+# shellcheck shell=bash
 # ---------------------------------------------------------------------------
 # rice3k_unmapped configuration. Sourced by every script and job.
 # Every value can be overridden from the environment, e.g.
